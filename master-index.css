@@ -1,0 +1,143 @@
+body{
+  width:1360px;
+  margin: -10px 0 0 -10px;
+}
+a{
+  text-decoration: none;
+}
+.header {
+  width:100%;
+  height: 100px;
+  background-color: #222;
+  line-height: 100px;
+  overflow: hidden;
+}
+.header a{
+  color: #939393;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.header a:hover{
+  color: white;
+}
+#header-nav a:hover{
+  color: white;
+}
+#header-title {
+  display: block;
+  float: left;
+  padding-left: 35px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#header-nav {
+  display: block;
+  float: right;
+  padding-right: 20px;
+  margin-top: 0;
+}
+#header-nav li{
+  display: inline;
+}
+
+
+.content {
+  width:100%;
+  min-height: 100px;
+  background-color: white;
+  overflow:hidden;
+}
+.content>.imm{
+  width:1360px;
+  height: 150px;
+  overflow:hidden;
+  margin-top: 0px;
+  text-align: center;
+}
+#larger{
+  height:150px;
+}
+#higher{
+  width:1360px;
+}
+.imm a{
+  font-size: 30px;
+  letter-spacing: 0.2em;
+  color: white/*#F76647*/;
+  padding: 100px 300px 100px 300px;
+  transition: 0.5s ease;
+}
+#sestri-levante a{
+  position: relative;
+  top:-100px;/*175-75*/
+}
+#napoli a{
+  position:relative;
+  top:-190px;/* 280=150+10+30+150*/
+}
+#toscana a{
+  position:relative;
+  top:-100px;/*450-3*10+25*/
+}
+#sicilia a{
+  position:relative;
+  top:-100px;/*450-3*10+25*/
+}
+#torino a{
+  position:relative;
+  top:-100px;/*450-3*10+25*/
+}
+#trentino a{
+  position:relative;
+  top:-145px;/*450-3*10+25*/
+  }
+#venezia a{
+  position:relative;
+  top:-100px;/*450-3*10+25*/
+  }
+#londra a{
+  position:relative;
+  top:-100px;/*450-3*10+25*/
+  }
+.content img{
+  transition: 0.5s ease;
+  filter: brightness(50%) grayscale(75%);
+}
+.imm:hover a{
+  font-size:40px;
+  letter-spacing: 0.5em;
+  opacity:0.7;
+}
+.imm:hover img{
+  filter:grayscale(0%) brightness(100%);
+}
+
+
+.footer {
+  width:100%;
+  height: 200px;
+  background-color: #222;
+  position:sticky;
+  line-height: 20px;
+}
+.column{
+  min-width:300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.footer h4 {
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.footer p {
+  color:#939393;
+}
+.footer a {
+  color:#939393;
+}
+.footer a:hover{
+  color:white;
+}
